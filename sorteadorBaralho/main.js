@@ -78,8 +78,6 @@ function sortear() {
     var div = document.getElementById("cardPlace");
 
     i = parseInt(Math.random() * 74)
-    console.log(i+1)
     var img = `images/${file[`file${i+1}`]}`
     div.innerHTML = "<img src=" + img + " class='cardImage'>"
-
 }
